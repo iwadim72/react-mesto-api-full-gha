@@ -9,7 +9,7 @@ const ConflictError = require('../errors/conflictError');
 module.exports.getUsers = (req, res, next) => {
   User.find({})
     .then((users) => res.send({ data: users }))
-    .catch((err) => next(err));
+    .catch((next));
 };
 
 module.exports.createUser = (req, res, next) => {
@@ -100,8 +100,8 @@ module.exports.login = (req, res, next) => {
         token: jwt.sign({ _id: user._id }, process.env.NODE_ENV !== 'production' ? 'super-strong-secret' : process.env.JWT_SECRET, { expiresIn: '7d' }),
       });
     })
-    .catch(() => {
-      next();
+    .catch((err) => {
+      next(err);
     });
 };
 
