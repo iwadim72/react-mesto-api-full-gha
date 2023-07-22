@@ -9,7 +9,7 @@
 
 ## Ссылки на проект
 
-IP-адрес 158.160.9.35
+IP 158.160.9.35
 
 Frontend https://mestothebest.nomoredomains.xyz/
 
