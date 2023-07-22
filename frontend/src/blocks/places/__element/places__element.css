@@ -1,0 +1,16 @@
+.places__element {
+    border-radius: 10px;
+    background: #FFFFFF;
+    color: black;
+    max-width: 282px;
+    height: 361px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+@media screen and (max-width: 767px) {
+    .places__element {
+        margin: 0 auto 0;
+    }
+}

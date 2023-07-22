@@ -1,0 +1,15 @@
+.popup__erorr {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FF0000;
+    width: 356px;
+    margin: 5px auto 0px;
+    z-index: 1;
+}
+
+@media screen and (max-width: 590px) {
+    .popup__erorr {
+        width: 250px;
+    }
+}

@@ -1,0 +1,13 @@
+.places__photo {
+    width: 282px;
+    object-fit: cover;
+    aspect-ratio: 1 / 1;
+    border-radius: 10px 10px 0 0;
+    background-size: cover;
+    background-color: black;
+    color: white;
+}
+
+.places__photo:hover {
+    cursor: pointer;
+}

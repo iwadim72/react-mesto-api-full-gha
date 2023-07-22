@@ -1,0 +1,5 @@
+.popup__container_type_info-tool {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -1,0 +1,24 @@
+.places__elements {
+    list-style: none;
+    min-height: 56vh;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 17px;
+    row-gap: 20px;
+}
+
+@media screen and (max-width: 1023px) {
+    .places__elements {
+        grid-template-columns: repeat(2, 282px);
+        max-width: fit-content;
+        margin: 0 auto 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .places__elements {
+        grid-template-columns: 1fr;
+    }
+}

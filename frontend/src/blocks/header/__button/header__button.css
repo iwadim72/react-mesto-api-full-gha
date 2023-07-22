@@ -1,0 +1,16 @@
+.header__button {
+    border: none;
+    background-color: #000000;
+    color: #A9A9A9;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    width: 56px;
+    height: 22px;
+}
+
+.header__button:hover {
+    cursor: pointer;
+}
